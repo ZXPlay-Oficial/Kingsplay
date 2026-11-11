@@ -278,11 +278,11 @@ class PlansToggle {
     
     updatePriceComparison(period) {
         const priceMultipliers = {
-            monthly: { months: 1, basic: 35, premium: 35, family: 40 },
-            bimonthly: { months: 2, basic: 60, premium: 60, family: 70 },
-            quarterly: { months: 3, basic: 80, premium: 85, family: 100 },
-            semiannual: { months: 6, basic: 150, premium: 140, family: 160 },
-            annual: { months: 12, basic: 275, premium: 250, family: 280 }
+            monthly: { months: 1, basic: 34,90, premium: 49,90, family: 59,00 },
+            bimonthly: { months: 2, basic: 69,00, premium: 89,00, family: 104,90 },
+            quarterly: { months: 3, basic: 99,90, premium: 124,90, family: 144,90 },
+            semiannual: { months: 6, basic: 179,90, premium: 229,90, family: 269,90 },
+            annual: { months: 12, basic: 329,90, premium: 419,90, family: 449,90 }
         };
         
         const currentPlan = priceMultipliers[period];
